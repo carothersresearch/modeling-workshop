@@ -1,0 +1,13 @@
+# conda env create --file environment.yml
+
+name: modeling-workshop
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - pip:
+    - tellurium
+    - cobra
+    - cplex
+    - gurobipy # need to get license first
+    - ipykernel 
